@@ -41,7 +41,7 @@ export function ApartmentPreviewComponent(props: ApartmentPreviewProps) {
   const apartment = selectedApartment ? apartments[selectedApartment] : {} as IApartment;
 
   useEffect(() => {
-    top.value = withTiming(25);
+    top.value = withTiming(20);
     left.value = withTiming(0);
     opacity.value = 1;
     setImageLoading(true);

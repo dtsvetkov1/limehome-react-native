@@ -30,7 +30,7 @@ export function HeaderIcon(props: HeaderIconType) {
       <FontAwesome
         name={'list'}
         size={25}
-        color={Colors[colorScheme].text}
+        color={colorScheme === 'dark' ? 'white' : 'black'}
         style={{ marginRight: 15 }}
       />
     </Pressable>
